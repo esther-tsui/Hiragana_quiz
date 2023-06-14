@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		729367E0267278FE00E226AE /* Hiragana_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367DF267278FE00E226AE /* Hiragana_QuizApp.swift */; };
+		729367E42672790100E226AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729367E32672790100E226AE /* Assets.xcassets */; };
+		729367E72672790100E226AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729367E62672790100E226AE /* Preview Assets.xcassets */; };
+		729367F0267279FA00E226AE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367EF267279FA00E226AE /* Question.swift */; };
+		729367F226727A1B00E226AE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367F126727A1B00E226AE /* Game.swift */; };
+		729367F426727A3900E226AE /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367F326727A3900E226AE /* ScoreViewModel.swift */; };
+		729367F726727A5F00E226AE /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367F626727A5F00E226AE /* ChoiceTextView.swift */; };
+		729367F926727A8100E226AE /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367F826727A8100E226AE /* GameColor.swift */; };
+		729367FB26727A9C00E226AE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367FA26727A9C00E226AE /* WelcomeView.swift */; };
+		729367FD26727AB600E226AE /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367FC26727AB600E226AE /* BottomTextView.swift */; };
+		729367FF26727AD000E226AE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729367FE26727AD000E226AE /* GameView.swift */; };
+		7293680126727AF200E226AE /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7293680026727AF200E226AE /* QuestionView.swift */; };
+		7293680326727B1200E226AE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7293680226727B1100E226AE /* ScoreView.swift */; };
+		7293680626727B4900E226AE /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7293680526727B4900E226AE /* GameViewModel.swift */; };
+		72A5F5BB267FDB5000E5F0B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72A5F5BA267FDB5000E5F0B6 /* GoogleService-Info.plist */; };
+		72A5F5C1267FFE0E00E5F0B6 /* GoogleMobileAdsSdkiOS-8.6.0 in Resources */ = {isa = PBXBuildFile; fileRef = 72A5F5C0267FFE0E00E5F0B6 /* GoogleMobileAdsSdkiOS-8.6.0 */; };
+		E7C95C1A99BCE9A72F8214B1 /* Pods_Hiragana_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D83BAC6962D89555FC992 /* Pods_Hiragana_Quiz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0D83BAC6962D89555FC992 /* Pods_Hiragana_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hiragana_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729367DC267278FE00E226AE /* Hiragana Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hiragana Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		729367DF267278FE00E226AE /* Hiragana_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiragana_QuizApp.swift; sourceTree = "<group>"; };
+		729367E32672790100E226AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		729367E62672790100E226AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		729367E82672790100E226AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729367EF267279FA00E226AE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		729367F126727A1B00E226AE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		729367F326727A3900E226AE /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		729367F626727A5F00E226AE /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		729367F826727A8100E226AE /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		729367FA26727A9C00E226AE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		729367FC26727AB600E226AE /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		729367FE26727AD000E226AE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7293680026727AF200E226AE /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7293680226727B1100E226AE /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		7293680526727B4900E226AE /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		72A5F5BA267FDB5000E5F0B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72A5F5C0267FFE0E00E5F0B6 /* GoogleMobileAdsSdkiOS-8.6.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleMobileAdsSdkiOS-8.6.0"; sourceTree = "<group>"; };
+		BB5D261B4F34E78BB9BCFD64 /* Pods-Hiragana Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiragana Quiz.release.xcconfig"; path = "Target Support Files/Pods-Hiragana Quiz/Pods-Hiragana Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		BDDBAE95EC9E6A8FF77B45D4 /* Pods-Hiragana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiragana Quiz.debug.xcconfig"; path = "Target Support Files/Pods-Hiragana Quiz/Pods-Hiragana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		729367D9267278FE00E226AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C95C1A99BCE9A72F8214B1 /* Pods_Hiragana_Quiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		729367D3267278FE00E226AE = {
+			isa = PBXGroup;
+			children = (
+				729367DE267278FE00E226AE /* Hiragana Quiz */,
+				729367E32672790100E226AE /* Assets.xcassets */,
+				729367DD267278FE00E226AE /* Products */,
+				8175EC96A9A6EFF5B44C3586 /* Pods */,
+				C363111904F86113FB294E19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		729367DD267278FE00E226AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729367DC267278FE00E226AE /* Hiragana Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		729367DE267278FE00E226AE /* Hiragana Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				729367DF267278FE00E226AE /* Hiragana_QuizApp.swift */,
+				729367EE267279B100E226AE /* Models */,
+				729367F526727A4B00E226AE /* Views */,
+				7293680426727B2700E226AE /* ViewModels */,
+				729367E82672790100E226AE /* Info.plist */,
+				72A5F5BA267FDB5000E5F0B6 /* GoogleService-Info.plist */,
+				72A5F5C0267FFE0E00E5F0B6 /* GoogleMobileAdsSdkiOS-8.6.0 */,
+				729367E52672790100E226AE /* Preview Content */,
+			);
+			path = "Hiragana Quiz";
+			sourceTree = "<group>";
+		};
+		729367E52672790100E226AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				729367E62672790100E226AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		729367EE267279B100E226AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				729367EF267279FA00E226AE /* Question.swift */,
+				729367F126727A1B00E226AE /* Game.swift */,
+				729367F326727A3900E226AE /* ScoreViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		729367F526727A4B00E226AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				729367F626727A5F00E226AE /* ChoiceTextView.swift */,
+				729367F826727A8100E226AE /* GameColor.swift */,
+				729367FA26727A9C00E226AE /* WelcomeView.swift */,
+				729367FC26727AB600E226AE /* BottomTextView.swift */,
+				729367FE26727AD000E226AE /* GameView.swift */,
+				7293680026727AF200E226AE /* QuestionView.swift */,
+				7293680226727B1100E226AE /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7293680426727B2700E226AE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7293680526727B4900E226AE /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8175EC96A9A6EFF5B44C3586 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDBAE95EC9E6A8FF77B45D4 /* Pods-Hiragana Quiz.debug.xcconfig */,
+				BB5D261B4F34E78BB9BCFD64 /* Pods-Hiragana Quiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C363111904F86113FB294E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0D83BAC6962D89555FC992 /* Pods_Hiragana_Quiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		729367DB267278FE00E226AE /* Hiragana Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729367EB2672790100E226AE /* Build configuration list for PBXNativeTarget "Hiragana Quiz" */;
+			buildPhases = (
+				8D24A1D1A74735D5AE32837E /* [CP] Check Pods Manifest.lock */,
+				729367D8267278FE00E226AE /* Sources */,
+				729367D9267278FE00E226AE /* Frameworks */,
+				729367DA267278FE00E226AE /* Resources */,
+				B2F0475360E5FF8384FE75CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hiragana Quiz";
+			productName = "Hiragana Quiz";
+			productReference = 729367DC267278FE00E226AE /* Hiragana Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		729367D4267278FE00E226AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					729367DB267278FE00E226AE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 729367D7267278FE00E226AE /* Build configuration list for PBXProject "Hiragana Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 729367D3267278FE00E226AE;
+			productRefGroup = 729367DD267278FE00E226AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729367DB267278FE00E226AE /* Hiragana Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		729367DA267278FE00E226AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A5F5C1267FFE0E00E5F0B6 /* GoogleMobileAdsSdkiOS-8.6.0 in Resources */,
+				729367E72672790100E226AE /* Preview Assets.xcassets in Resources */,
+				729367E42672790100E226AE /* Assets.xcassets in Resources */,
+				72A5F5BB267FDB5000E5F0B6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D24A1D1A74735D5AE32837E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hiragana Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F0475360E5FF8384FE75CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiragana Quiz/Pods-Hiragana Quiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiragana Quiz/Pods-Hiragana Quiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hiragana Quiz/Pods-Hiragana Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		729367D8267278FE00E226AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729367F0267279FA00E226AE /* Question.swift in Sources */,
+				729367F426727A3900E226AE /* ScoreViewModel.swift in Sources */,
+				729367F726727A5F00E226AE /* ChoiceTextView.swift in Sources */,
+				729367FD26727AB600E226AE /* BottomTextView.swift in Sources */,
+				729367FF26727AD000E226AE /* GameView.swift in Sources */,
+				7293680326727B1200E226AE /* ScoreView.swift in Sources */,
+				7293680626727B4900E226AE /* GameViewModel.swift in Sources */,
+				729367FB26727A9C00E226AE /* WelcomeView.swift in Sources */,
+				7293680126727AF200E226AE /* QuestionView.swift in Sources */,
+				729367F926727A8100E226AE /* GameColor.swift in Sources */,
+				729367E0267278FE00E226AE /* Hiragana_QuizApp.swift in Sources */,
+				729367F226727A1B00E226AE /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		729367E92672790100E226AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		729367EA2672790100E226AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		729367EC2672790100E226AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDBAE95EC9E6A8FF77B45D4 /* Pods-Hiragana Quiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiragana Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = RJQGMF9477;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hiragana Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esthertsui.Hiragana-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		729367ED2672790100E226AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5D261B4F34E78BB9BCFD64 /* Pods-Hiragana Quiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiragana Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = RJQGMF9477;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hiragana Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esthertsui.Hiragana-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		729367D7267278FE00E226AE /* Build configuration list for PBXProject "Hiragana Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729367E92672790100E226AE /* Debug */,
+				729367EA2672790100E226AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729367EB2672790100E226AE /* Build configuration list for PBXNativeTarget "Hiragana Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729367EC2672790100E226AE /* Debug */,
+				729367ED2672790100E226AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 729367D4267278FE00E226AE /* Project object */;
+}
